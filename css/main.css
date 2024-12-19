@@ -927,3 +927,47 @@ a{
 
   }
 
+  /* .containers_kvest{
+    
+  } */
+
+
+  .kvests_rid{
+    width: 278px;
+    height: 270px;
+    border-radius: 50px;
+    gap: 32px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+
+
+/* //////// background-color: #E38D25;     background-color: #C62A17; background-color: #2F2255;   background-color: #55224A;*/
+
+  /* .block_kvests{
+
+  } */
+
+  .block_kvests {
+    
+  }
+  
+  .exit{
+    font-family: NauryzRedKeds;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.12px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C62A17;
+    border: 3px solid #C62A17;
+    width: 214px;
+    height: 51px;
+    border-radius: 50px;
+    position: relative;
+    /* margin-right: 30px;
+    margin-left: auto; */
+  }
+
+  
