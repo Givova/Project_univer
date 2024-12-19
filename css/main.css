@@ -1093,6 +1093,32 @@ a{
 
   }
 
+  .gg_but.active{
+    /* background-color: darkblue; Цвет фона при нажатии */
+    /* transform: scale(0.95); Уменьшение размера */
+    /* transition: background-color 0.3s, transform 0.1s;  */
+    margin-right: 100px;
+    height:  52px;
+    border-radius: 10px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    background-color: transparent;
+    color: #C62A17;
+    border: 5px solid #C62A17;
+    width: 380px;
+    font-family: NauryzRedKeds;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.12px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+  }
+
+
   html{
     width: 100%;
   }
