@@ -622,9 +622,7 @@ a{
     margin-right: 100px;
   }
 
-
-
-
+  
 
 
 
@@ -948,8 +946,9 @@ a{
 
   } */
 
-  .block_kvests {
-    
+  .profil_vibor_kvest{
+    margin-top: 50px;
+
   }
   
   .exit{
@@ -966,8 +965,45 @@ a{
     height: 51px;
     border-radius: 50px;
     position: relative;
-    /* margin-right: 30px;
-    margin-left: auto; */
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    
   }
 
-  
+  .profil{
+    width: 480px;
+    height: 550px;
+    margin: 0 auto;
+    padding-top: 150px;
+   
+  }
+  .profile_div_image{
+  /* border-radius: 50%; */
+  /* background-color: #E38D25; */
+  /* width: 350px;
+  height: 350px; */
+  margin: 0 auto;
+  width: 260px;
+}
+
+
+  .retake{
+    font-family: NauryzRedKeds;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.12px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C62A17;
+    border: 3px solid #C62A17;
+    width: 260px;
+    height: 51px;
+    border-radius: 50px;
+    position: relative;
+    float: right;
+    /* margin-right: 50px; */
+    margin-top: 20px;
+  }
+
