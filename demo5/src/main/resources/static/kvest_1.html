@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/kvest.css">
+    <title>Вы уверены?</title>
+</head>
+<body>
+    <div class="pages">
+        <!-- <img src="/src/Quetions/background.png"> -->
+        
+         <div class="">
+        <p class="text kv kv-zag-bl"> Кто из преподавателей раздает конфетки на лабораторных работах?</p>
+
+
+        <input type="text" id="userInput" class="input_ans" name="name" placeholder="Ведите Фамилию" />
+        <!-- <p id="message"></p> -->
+    </div>
+        <a href="/kvest_vibor.html"><button class="but_text exit up">назад</button></a>
+        <!-- <a href="/kvest_itog.html"> -->
+            <button type="submit" class="but_text nachat up" id="myButton">далее</button>
+        <!-- </a> -->
+    </div>
+
+    <script >
+    document.addEventListener('DOMContentLoaded', function() {
+            const button = document.getElementById('myButton');
+            const userInput = document.getElementById('userInput');
+            const fam = "аверченков"; // Правильный ответ
+
+            button.addEventListener('click', function() {
+                const inputValue = userInput.value;
+                if (inputValue.toLowerCase() === fam) {
+                    localStorage.setItem('message', 'Это правильный ответ! Квест оказался слишком лёгким?))');
+                } else {
+                    localStorage.setItem('message', 'Увы! Нужно больше ходить на пары(');
+                }
+                window.location.href = '/kvest_itog.html'; // Переход на вторую страницу
+            });
+        });
+
+    </script>
+</body>
+</html>

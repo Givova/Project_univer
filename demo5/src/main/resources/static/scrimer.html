@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>132245</title>
+    <style>
+        body {
+            transition: background-color 0.5s, color 0.5s; /* Плавный переход */
+        }
+        h1 {
+            text-align: center; /* Центрирование текста */
+            margin-top: 20%; /* Отступ сверху */
+        }
+        button{
+            
+            display: block; /* Блоковый элемент */
+            width: 150px;
+            height: 50px;
+            border-radius: 40px;
+            margin: 20px auto; /* Центрирование кнопки */
+            padding: 10px 20px; /* Отступы внутри кнопки */
+            font-size: 16px; /* Размер шрифта */
+            border: 1px solid #000; /* Убираем границу */
+            cursor: pointer; /* Курсор при наведении */
+            transition: background-color 0.5s, color 0.5s; /* Плавный переход */
+        
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="text" style="font-size: 60px;">Ты что,  ДыНоЗаВр?</h1>
+    </div>
+
+    <a href="/index.html" style="text-decoration: none;"><button id="dynamicButton">Домой</button></a>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const textElement = document.getElementById('text');
+            const buttonElement = document.getElementById('dynamicButton');
+
+            function changeColors() {
+                // Генерируем случайные цвета
+                const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+                const randomBgColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+                
+                // Изменяем цвет текста и фона
+                textElement.style.color = randomColor;
+                document.body.style.backgroundColor = randomBgColor;
+
+                // Изменяем цвет кнопки
+                buttonElement.style.color = randomColor;
+                buttonElement.style.backgroundColor = randomBgColor;
+            }
+
+            // Запускаем изменение цвета каждую секунду
+            setInterval(changeColors, 1000);
+        });
+    </script>
+</body>
+</html>

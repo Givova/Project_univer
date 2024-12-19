@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Days One";
+    src: url("/src/fonts/DaysOne-Regular.ttf");
+  }
+  @font-face {
+    font-family: "NauryzRedKeds";
+    src: url("/src/fonts/behance-66279ce7757fe.ttf");
+  }
+  body{
+    background-color: #100339;
+  }
+
+  .pages{
+    background: url(/src/Quetions/background.png);
+    width: 900px;
+    height: 560px;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+
+  .zagolovok{
+    color: #C62A17;
+    font-family: NauryzRedKeds;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43.54px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+
+  .zag{
+    /* margin-top: 40px; */
+    padding-top: 50px;
+  }
+  
+  .text{
+    color:#100339;
+    font-family: Days One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30.55px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+
+  .kv{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .but_text{
+    font-family: NauryzRedKeds;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.12px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C62A17;
+    border: 3px solid #C62A17;
+    width: 214px;
+    height: 51px;
+    border-radius: 50px;
+  }
+
+  .nachat{
+    position: relative;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+
+  .exit{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  
+  .kv-zag-bl{
+    font-size: 40px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+
+
+  .input_ans{
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: #100339;
+    width: 380px;
+    height: 51px;
+    margin-left: 240px;
+    margin-top: 80px;
+  }
+
+  .pages input{
+    font-family: NauryzRedKeds;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.12px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #100339;
+    margin-bottom: 10px;
+  }
+
+  .up{
+    margin-top: 130px;
+  }
+
+  .gotovo{
+    margin-left: 350px;
+    
+    margin-top: 200px;
+  }
