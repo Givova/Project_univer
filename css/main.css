@@ -11,7 +11,8 @@ a{
   text-decoration: none;
 }
   .navbar{ 
-    /* z-index: 5;                          */
+    /* z-index: 5;                         #E38D25  */
+    background-color: #e38d25a6;
    } 
    .nav-link , .navbar-brand{
     color: #f4f4f4;
@@ -21,7 +22,15 @@ a{
   
    .nav-link{
     margin-right: 1em !important;
-    color: #000;
+    color: #100339;
+    font-family: Days One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.46px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
    }
    .nav-link:hover{
     /* background: #f4f4f4; */
@@ -949,6 +958,7 @@ a{
   .profil_vibor_kvest{
     margin-top: 50px;
 
+
   }
   
   .exit{
@@ -969,6 +979,22 @@ a{
     margin-right: 50px;
     margin-top: 50px;
     
+  }
+
+  .back_world{
+    transform: rotate(180deg); 
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C62A17;
+    border: 3px solid #C62A17;
+    width: 51px;
+    height: 51px;
+    border-radius: 50px;
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
   }
 
   .profil{
@@ -1007,3 +1033,66 @@ a{
     margin-top: 20px;
   }
 
+  .kvests_rid{
+    cursor: pointer;
+  }
+
+
+
+  .piz{
+    margin-bottom: 200px;
+    padding-bottom: 300px;
+    margin-top: 150px;
+  }
+
+  .kvest_person{
+    margin: 0 auto;
+    width: 960px;
+    text-align: center;
+    font-family: Days One;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 81.47px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 150px;
+
+  }
+
+  .text_64{
+    font-family: Days One;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 81.47px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #100339;
+
+  }
+
+  .text_kvest_red{
+   
+    font-family: NauryzRedKeds;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 90px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C62A17;
+
+  }
+
+  .center_kvest{
+    /* padding-left: auto;
+    padding-right: auto; */
+    width: 1200px;
+    margin: 0 auto;
+
+  }
+
+  html{
+    width: 100%;
+  }
