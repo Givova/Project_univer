@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "Days One";
+  src: url("/src/fonts/DaysOne-Regular.ttf");
+}
+@font-face {
+  font-family: "NauryzRedKeds";
+  src: url("/src/fonts/behance-66279ce7757fe.ttf");
+}
+
+.register_div{
+    background-image: url(/src/Main_page/paper.png);
+    background-repeat: no-repeat;
+    /* background-position: center center;
+    background-attachment: fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 597px;
+    height: 792px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+
+}
+
+
+.reg{
+  font-family: NauryzRedKeds;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 43.54px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #C62A17;
+
+  margin-left: 150px;
+  /* margin-top: 200px; */
+  padding-top: 120px;
+}
+
+.text_inputs{
+  font-family: NauryzRedKeds;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.77px;
+ 
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #100339;
+
+}
+
+
+.text_input{
+  font-family: NauryzRedKeds;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 10.12px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #100339;
+
+}
+.register_div p{
+  text-align: start;
+  margin-left: 100px ;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #100339;
+  
+}
+
+.register_div input{
+     border: 5px solid;
+    border-radius: 10px;
+    border-color: #100339;
+    width: 380px;
+    height: 51px;
+    margin-left: 90px;
+    /* margin-right: auto; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+
+.but_mess{
+  /* margin-right: 100px; */
+  margin-top: 20px;
+  margin-left: 100px;
+  /* width: 110px; */
+  height:  52px;
+  /* padding: 15px 10px 15px 10px; */
+  /* gap: 10px; */
+  border-radius: 50px;
+  opacity: 0px;
+  text-align: center;
+  /* display: flex;
+  justify-content: center; */
+  background-color: #E38D25;
+  color: #fff;
+  border: none;
+  width: 380px;
+  z-index: 100;
+
+  font-family: Days One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30.55px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.txt_1{
+  
+  font-family: Days One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30.55px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #100339;
+}
+
+.txt_2{
+
+  font-family: NauryzRedKeds;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.12px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+
+.text_advant{
+  color: #100339;
+  font-family: Days One;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50.92px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 50px;
+}
+
+  .advanture{
+    /* align-items: center; */
+    /* text-align: center; */
+    margin-top: 70px;
+  }
+
+
+
+  .register_div_1{
+    background-image: url(/src/Main_page/paper.png);
+    background-repeat: no-repeat;
+    /* background-position: center center;
+    background-attachment: fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 597px;
+    height: 792px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+
+}
+
+  .reg_1{
+      font-family: NauryzRedKeds;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 43.54px;
+      text-align: center;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #C62A17;
+    
+      margin-left: 150px;
+      /* margin-top: 200px; */
+      padding-top: 120px;
+    }
+  
