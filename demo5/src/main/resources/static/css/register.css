@@ -117,6 +117,10 @@
 
 }
 
+.but_mess:active{ 
+  background-color: black;
+}
+
 .txt_1{
   
   font-family: Days One;

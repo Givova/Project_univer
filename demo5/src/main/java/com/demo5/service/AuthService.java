@@ -14,17 +14,14 @@ public class AuthService {
 
     @Autowired
     private UserRepository userRepository;
-
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    public Optional<User> authenticate(String username, String password) {
-        Optional<User> user = Optional.ofNullable(userRepository.findByUsername(username));
-
-        if (user.isPresent() && passwordEncoder.matches(password, user.get().getPassword())) {
-            return user; // Аутентификация успешна
+    public Optional<User> authenticate(String email, String password) {
+        User user = userRepository.findByEmail(email); // Найти пользователя
+        if (user != null && passwordEncoder.matches(password, user.getPassword())) {
+            return Optional.of(user); // Аутентификация успешна
         }
-
         return Optional.empty(); // Аутентификация не удалась
     }
 }

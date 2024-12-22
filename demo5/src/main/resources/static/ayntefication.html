@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,27 +16,14 @@
 
     <h1 class="reg" style="margin-left: 230px; ">Вход</h1>
     <div class="pole">
-    <!-- <p class="text_input" >имя</p>
-    <input id="names" class="text_inputs" placeholder="имя">
-
-    <p class="text_input" >фамилия</p>
-    <input id="sec_name" class="text_inputs" placeholder="фамилия"> -->
 
     <p class="text_input" >email</p>
-    <input id="email" class="text_inputs"  placeholder="email">
+    <input id="login_email" class="text_inputs"  placeholder="email">
 
     <p class="text_input" >пароль</p>
-    <input id="password" class="text_inputs" placeholder="пароль"><br>
+    <input id="login_password" class="text_inputs" placeholder="пароль"><br>
 
-
-
-
-        <!-- здесь нужно прописать логику по проверке пользователя?? -->
-                    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-                     <!-- В регистрации тоже нужно! -->
-
-
-    <button type="submit" id="submit" class="but_mess" style="margin-top: 40px;">войти</button>
+    <button id="login_submit" class="but_mess" style="margin-top: 40px; cursor: pointer;">войти</button>
     
     <p class="txt_1" style="margin-left: 155px; margin-top: 25px; color: #100339;">Ещё нет аккаунта?<br> <span class="txt_2"><a href="/register.html" style="cursor: pointer; text-decoration: none; color: #5c489b;">зарегестрироваться</a></span></p>
 
@@ -51,4 +38,40 @@
 </body>
 </html>
 
+  -->
 
+  <!DOCTYPE html> 
+  <html lang="en"> 
+  <head> 
+   <meta charset="UTF-8"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <title>Вход</title> 
+   <link rel="preconnect" href="https://fonts.googleapis.com"> 
+   <link rel="stylesheet" type="text/css" href="css/register.css"> 
+   <script defer src="js/jquery-3.7.1.slim.min.js"></script> 
+  </head> 
+  <body> 
+   
+  <div class="register_div"> 
+   <h1 class="reg">Вход</h1> 
+   <div class="pole"> 
+   <p class="text_input">email</p> 
+   <input id="login_email" class="text_inputs" placeholder="email"> 
+   
+   <p class="text_input">пароль</p> 
+   <input id="login_password" class="text_inputs" placeholder="пароль">
+   
+   
+   <button id="login_submit" class="but_mess" style="margin-top: 40px;">войти</button> 
+   
+   <p class="txt_1" style="margin-top: 25px; color: #100339;"> 
+   Ещё нет аккаунта?
+   
+   <span class="txt_2"><a href="/register.html" style="cursor: pointer; text-decoration: none; color: #5c489b;">зарегистрироваться</a></span> 
+   </p> 
+   </div> 
+  </div> 
+   
+  <script src="/js/script1.js"></script> 
+  </body> 
+  </html>

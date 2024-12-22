@@ -9,7 +9,7 @@
 </head>
 <body>
     <a href="/index.html"><button class="back_world"><img src="/src/Main_page/arrow_but.svg"></button></a>
-    <button class="exit"> выйти</button>
+    <button id="logoutButton" class="exit"> выйти</button>
 
     <!-- <div class="profil">
         <div class="profile_div_image">
@@ -24,7 +24,7 @@
     <div class="profil">
         <div class="profile_div_image">
         <img class="profil_image" src="/src/Main_page/first_pep.png" height="260px" width="260px" style="border-radius: 50%; background-color: #E38D25;">
-        <h1 style="align-items: center; margin-top: 20px; font-size: 30px; margin-left: 30px;" class="red_text_24 prprpr">иванов иван</h1>
+        <h1 id="fullName" style="align-items: center; margin-top: 20px; font-size: 30px; margin-left: 30px;" class="red_text_24 prprpr"></h1>
         <button class="retake">изменить</button>
         </div>
         
@@ -37,35 +37,6 @@
             <div class="kvest_head" >
               <h1 style="margin-left: 100px;">ПРОЙДЕННЫЕ <span class="text_about_main"> квесты </span></h1>
             </div>
-
-            <!-- <div class="containers_kvest ">
-                <div class="kvests_rid">
-
-                </div>
-                <div class="kvests_rid">
-
-                </div>
-                <div class="kvests_rid">
-
-                </div>
-                <div class="kvests_rid">
-
-                </div>
-                <div class="kvests_rid">
-
-                </div>
-                <div class="kvests_rid">
-
-                </div>
-                <div class="kvests_rid">
-
-                </div>
-                <div class="kvests_rid">
-
-                </div>
-
-
-            </div> -->
             <div class="container mt-5 ">
                 <div class="row mx-n5">
                     <div class="col-md-3 ">
@@ -134,5 +105,24 @@
         <div class="kvestik"></div> -->
     </div>
     <script src="/js/colors.js"></script>
+    <script> 
+        const logoutButton = document.getElementById('logoutButton'); 
+         
+        logoutButton.addEventListener('click', () => { 
+         // Удаляем информацию о том, что пользователь авторизован 
+         localStorage.removeItem('isLoggedIn'); 
+         // Перенаправление на главную страницу 
+         window.location.href = 'index.html'; 
+        }); 
+        const username = localStorage.getItem('username'); 
+            const subname = localStorage.getItem('subname'); 
+            
+            // Проверяем, есть ли данные и отображаем их 
+            if (username && subname) { 
+            document.getElementById('fullName').textContent = `${username} ${subname}`; 
+            } else { 
+            document.getElementById('fullName').textContent = 'Имя не найдено'; 
+            } 
+        </script>
 </body>
 </html>
